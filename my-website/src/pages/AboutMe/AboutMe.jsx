@@ -2,6 +2,7 @@ import React from 'react'
 
 import NavBar from '../../components/NavBar/NavBar'
 import Biography from '../../components/Biography/Biography'
+import Skills from '../../components/Skills/Skills'
 import './aboutMeStyles.scss'
 
 const AboutMe = () => {
@@ -9,6 +10,7 @@ const AboutMe = () => {
         <div>
             <NavBar/>
             <Biography/>
+            <Skills/>
         </div>
      );
 }
